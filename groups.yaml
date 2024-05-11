@@ -1,0 +1,10 @@
+---
+ios:
+  platform: "ios"
+  connection_options:
+    netmiko:
+      extras:
+        secret: passwd
+        # optional_args:
+          # fast_cli: False
+          # secret: my_secret

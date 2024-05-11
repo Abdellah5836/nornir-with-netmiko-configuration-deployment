@@ -1,0 +1,32 @@
+---
+Router-1:
+  hostname: 10.10.1.1
+  connection_options:
+    pyats:
+      extras:
+        devices:
+          secret: passwd
+  groups:
+  - ios
+
+
+switch-1:
+  hostname: 10.10.1.2
+  connection_options:
+    pyats:
+      extras:
+        devices:
+          secret: passwd
+  groups:
+  - ios
+  
+switch-2:
+  hostname: 10.10.1.6
+  connection_options:
+    pyats:
+      extras:
+        devices:
+          secret: passwd
+  groups:
+  - ios
+

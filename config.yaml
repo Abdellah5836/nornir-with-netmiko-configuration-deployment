@@ -1,0 +1,12 @@
+---
+inventory:
+  plugin: SimpleInventory
+  options:
+    host_file: "C:\\Users\\pc\\Desktop\\python_programmability\\llpyAuto01\\autoPy05\\nornirTutorials\\hosts.yaml"
+    group_file: "C:\\Users\\pc\\Desktop\\python_programmability\\llpyAuto01\\autoPy05\\nornirTutorials\\groups.yaml"
+    defaults_file: "C:\\Users\\pc\\Desktop\\python_programmability\\llpyAuto01\\autoPy05\\nornirTutorials\\defaults.yaml"
+
+runner:
+  plugin: threaded
+  options:
+    num_workers: 3
